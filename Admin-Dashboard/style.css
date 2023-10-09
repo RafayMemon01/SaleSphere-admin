@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('./assets/bg.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    color: whitesmoke;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    color: whitesmoke;
+}
+header span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    
+}
+main div.right{
+ display: flex;
+ justify-content: end;   
+ border: 1px solid white;
+ padding: 1em;
+}
+.navBtn{
+    border: none;
+    border-radius: 1em;
+    padding: .5em;
+    margin-left: 2em;
+}
+.timediv{
+    font-size: 1.8rem;
+}
