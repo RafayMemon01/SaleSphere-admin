@@ -54,10 +54,6 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("productDescription").value;
       const affiliateLink = document.getElementById("affiliateLink").value;
       const productImageURL = document.getElementById("productImage").value;
-
-      // Send the imageURL to the server (you'll need to implement this part)
-      // You can use XMLHttpRequest or fetch API to send data to your server
-      // Example using fetch:
       axios
         .post("https://jittery-dress-goat.cyclic.app/admin/api/v1/post", {
           productName: productName,
@@ -76,3 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+const search = (event)=>{
+  event.preventDefault();
+  console.log('Search Wiring');
+}
